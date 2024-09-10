@@ -1,0 +1,159 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+button {
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	display: flex;
+	padding: 40px;
+	height: 15vh;
+	margin: auto;
+	align-items: center;
+	background-color: #2196f3;
+	color:white
+}
+
+.logo-container,
+.nav-links,
+.cart {
+	display: flex;
+}
+
+.logo-container {
+	flex: 1;
+	padding: 20px;
+}
+
+.logo {
+	position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+nav {
+	flex: 2;
+}
+.nav-links {
+	justify-content: space-around;
+	list-style: none;
+}
+.nav-link {
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.cart {
+	flex: 1;
+	justify-content: flex-end;
+}
+
+.lenovo {
+	display: flex;
+	padding: 40px;
+	width: 90%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
+}
+.intro {
+	flex: 1;
+}
+.intro-text h1 {
+	font-size: 44px;
+	font-weight: 400;
+	padding: 18px;
+	
+}
+.intro-text p {
+	margin-top: 5px;
+	font-size: 15px;
+	color: black;
+	line-height: 1.6;
+}
+.cta {
+	padding: 50px 0px 0px 0px;
+}
+.cta-select {
+	border: 2px solid #2196f3;
+	background: transparent;
+	color: #2196f3;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.cta-add {
+	background: #2196f3;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 16px;
+	border: none;
+	color: white;
+	margin: 30px 0px 0px 30px;
+}
+
+.cover {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	height: 60vh;
+}
+
+h2{
+	position: relative;
+	padding: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.column {
+	padding: 20px;
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+  }
+
+.products::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+.column img{
+	border: 2px solid rgb(175, 172, 172);
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+	height: 400px;
+}
+
+footer{
+	display: flex;
+	padding: 40px;
+	height: 15vh;
+	background-color: #2196f3;
+	color:white
+}
+
+footer p{
+	display: block;
+  	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	text-align: center;
+	padding: 10px;
+}
+
